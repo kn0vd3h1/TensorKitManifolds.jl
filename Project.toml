@@ -1,7 +1,7 @@
 name = "Runic"
 uuid = "12345678-1234-1234-1234-123456789012"
 authors = ["Jutho Haegeman <jutho.haegeman@ugent.be>", "Markus Hauru <markus@mhauru.org>"]
-version = "0.8"
+version = "0.1.0"
 
 [deps]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
